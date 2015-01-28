@@ -583,7 +583,7 @@ saturate (int8_t *d, int16_t *candidates)
             /* === Singleton elimination ======================================
              *
              * Only one candidate remains, hence we can assign this value 
-             * to the cell, without further due.
+             * to the cell, without further ado.
              */
             d[i] = log2_plus1 (candidates[i] >> 4);
             f = 1;
